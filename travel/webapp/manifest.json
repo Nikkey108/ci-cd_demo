@@ -136,10 +136,14 @@
               "controlConfiguration": {
                 "@com.sap.vocabularies.UI.v1.LineItem": {
                   "tableSettings": {
-                    "type": "ResponsiveTable"
+                    "type": "ResponsiveTable",
+                    "enableExport": true,
+                    "selectAll": true,
+                    "selectionMode": "Single"
                   }
                 }
-              }
+              },
+              "initialLoad": "Enabled"
             }
           }
         },
